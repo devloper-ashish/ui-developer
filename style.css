@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.first-box {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(61, 58, 58, 0.884);
+}
+
+.first-left {
+    display: flex;
+    width: 40%;
+    height: 100%;
+    background-color: black;
+}
+
+
+.nav {
+    display: flex;
+    color: whitesmoke;
+    width: 60%;
+    height: 10%;
+    font-weight: 800;
+    justify-content: space-evenly;
+    list-style: none;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    left: 545px;
+}
+
+h1 {
+    color: rgb(233, 227, 227);
+    font-family: Helvetica;
+    font-weight: 700;
+    position: absolute;
+    font-size: 60px;
+    top: 68%;
+    left: 20%;
+}
+
+h3 {
+    color: whitesmoke;
+    padding-top: 72%;
+    padding-left: 285px;
+    font-size: 40px;
+    font-family: Helvetica;
+}
+
+button {
+    padding: 9PX 75PX;
+    position: absolute;
+    font-size: 19px;
+    top: 80%;
+    left: 20%;
+    background-color: rgba(255, 255, 0, 0.808);
+    border: none;
+    border-radius: 2px;
+    font-weight: 600;
+}
+
+
+hr {
+    border: none;
+    height: 3px;
+    background-color: rgba(255, 255, 0, 0.836);
+    color: black;
+}
+
+
+h2 {
+    color: rgb(233, 227, 227);
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 30px;
+    position: absolute;
+    left: 11%;
+    top: 4%;
+
+}
+
+.first-right {
+    display: flex;
+    width: 60%;
+    height: 89.8%;
+    background-image: url(https://images.unsplash.com/photo-1514929781313-76fcbb2136b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1376&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 69px;
+
+}
+
+.sec-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: rgb(235, 232, 228);
+
+
+}
+
+.Sec-left {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(235, 232, 228);
+}
+
+img {
+    width: 45%;
+    margin-top: 12%;
+    margin-left: 40%;
+    box-shadow: -70px -45px rgba(17, 17, 17, 0.863);
+
+}
+
+P {
+    position: relative;
+    top: 15%;
+    left: 65%;
+    font-size: 42px;
+    color: rgb(240, 217, 116);
+    font-weight: 700;
+}
+
+.sec-right {
+    width: 50%;
+    height: 100%;
+    background-color: rgba(221, 174, 113, 0.795);
+    background: url(./line-removebg-preview.png);
+    background-position: 270px 130px;
+    background-repeat: no-repeat;
+    background-size: 150PX;
+    position: relative;
+    bottom: ;
+
+
+
+}
+
+h4 {
+    position: relative;
+    font-size: 22px;
+    font-family: Helvetica;
+    margin-left: 9%;
+    top: 24%;
+
+}
+
+h5 {
+    font-size: 45px;
+    margin-top: 22.5%;
+    font-family: Helvetica;
+}
+
+h6 {
+    font-size: 16px;
+    padding-top: 70px;
+    font-family: Helvetica;
+    color: rgba(17, 17, 17, 0.767);
+}
+
+.third-box {
+    width: 100%;
+    height: 100%;
+}
+
+.last-center {
+    width: 60%;
+    height: 200%;
+    position: absolute;
+    left: 20%;
+
+}
+
+.last-nav {
+    width: 100%;
+    height: 15%;
+    position: absolute;
+
+}
+
+.last-bas{
+    font-size: 50px;
+    position: relative;
+    top: 25%;
+    left: 27%;
+    color: rgba(0, 0, 0, 0.795);
+    font-family: cursive;
+    transition: 1s ;
+
+}
+.last-bas:hover{
+    transform: scale(.65);
+    cursor: pointer;
+
+
+}
+
+
+.one {
+    position: relative;
+    top: 15%;
+    width: 100%;
+    height: 20%;
+}
+
+.one-kaone {
+    width: 30%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1549217272-1c31166a69f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 6px 3px 5px rgba(20, 19, 19, 0.904);
+
+}
+
+.one-katwo {
+    top: -.30%;
+    width: 37%;
+    height: 100%;
+    position: absolute;
+    left: 31.3%;
+    background-image: url(https://images.unsplash.com/photo-1542282088-fe8426682b8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 6px 3px 5px rgba(20, 19, 19, 0.904);
+}
+
+.one-kathree {
+    top: -.30%;
+    width: 30.5%;
+    height: 100%;
+    position: absolute;
+    left: 69.5%;
+    background-image: url(https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 6px 3px 5px rgba(20, 19, 19, 0.904);
+}
+
+.two {
+    position: absolute;
+    width: 327.5%;
+    height: 100%;
+    top: 105%;
+    left: -35.1pc;
+}
+
+.two-kaone {
+    position: absolute;
+    width: 30.2%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1633793675529-58eecb6ea16f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 6px 3px 5px rgba(20, 19, 19, 0.904);
+
+}
+
+.two-katwo {
+    width: 37%;
+    height: 100%;
+    position: absolute;
+    left: 31.5%;
+    background-image: url(https://images.unsplash.com/photo-1603788569892-2c720de85ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=401&q=80);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 6px 3px 5px rgba(20, 19, 19, 0.904);
+}
+
+.two-kathree {
+    top: -.30%;
+    width: 30.5%;
+    height: 100%;
+    position: absolute;
+    left: 69.5%;
+    background-image: url(https://images.unsplash.com/photo-1565292266983-74457d481f44?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 6px 3px 5px rgba(20, 19, 19, 0.904);
+}
+
+.three {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    top: 105%;
+
+}
+
+.three-kaone {
+    width: 30.2%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1614797118060-6dca897b196a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=493&q=80);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 6px 3px 5px rgba(20, 19, 19, 0.904);
+
+}
+
+.three-katwo {
+    width: 37%;
+    height: 100%;
+
+    position: absolute;
+    top: 0%;
+    left: 31.5%;
+    background-image: url(https://images.unsplash.com/photo-1560343776-97e7d202ff0e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 6px 3px 5px rgba(20, 19, 19, 0.904);
+}
+
+.three-kathree {
+    width: 30.5%;
+    height: 100%;
+    background-color: rgb(154, 154, 218);
+    left: 69.5%;
+    position: relative;
+    top: -100%;
+    background-image: url(https://images.unsplash.com/photo-1673745963492-32d46cfaf1a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 6px 3px 5px rgba(20, 19, 19, 0.904);
+}
+
+.last-one {
+    width: 167.5%;
+    height: 97%;
+    color: black;
+    z-index: -1;
+    position: relative;
+    top: 38pc;
+    left: -17pc;
+    background-image: url(https://thumbs.dreamstime.com/b/space-background-used-mobile-computer-wallpaper-lens-flare-technology-abstract-night-sky-glogy-stars-dark-225772533.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+span {
+    color: rgba(240, 248, 255, 0.5);
+    font-size: 20px;
+    position: relative;
+    top: 20%;
+    left: 15%;
+}
+
+a {
+    font-size: 30px;
+    position: relative;
+    top: 45%;
+    left: 5%;
+    color: rgba(240, 248, 255, 0.473);
+    list-style-type: none;
+}
